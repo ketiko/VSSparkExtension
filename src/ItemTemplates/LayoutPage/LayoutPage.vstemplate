@@ -5,7 +5,7 @@
     <Description>Layout Page with Spark syntax (spark)</Description>
     <Icon>SparkIcon.png</Icon>
     <ProjectType>CSharp</ProjectType>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>3</NumberOfParentCategoriesToRollUp>
     <ShowByDefault>true</ShowByDefault>
     <DefaultName>LayoutPage.spark</DefaultName>
   </TemplateData>

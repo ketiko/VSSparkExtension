@@ -54,7 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="LayoutPage.vstemplate">
-      <OutputSubPath>Web</OutputSubPath>
+      <OutputSubPath>Web\Spark</OutputSubPath>
+      <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
