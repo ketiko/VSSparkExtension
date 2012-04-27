@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
     <Identifier Id="VSSparkExtension..f467eec3-47c2-4926-9526-7d93c2f69e24">
-        <Name>VSSparkExtension</Name>
-        <Author>ketikochofax</Author>
+        <Name>Visual Studio Spark Extension</Name>
+        <Author>Ryan Hansen</Author>
         <Version>1.0</Version>
         <Description xml:space="preserve">This is a Spark View Engine extension to the Visual Studio Editor.</Description>
         <Locale>1033</Locale>
+        <MoreInfoUrl>http://ketikochofax.github.com/VSSparkExtension/</MoreInfoUrl>
+        <Icon>SparkIcon.png</Icon>
+        <PreviewImage>SparkLogo.png</PreviewImage>
         <SupportedProducts>
             <VisualStudio Version="10.0">
                 <Edition>Ultimate</Edition>
@@ -18,5 +21,6 @@
     <References />
     <Content>
         <MefComponent>|%CurrentProject%|</MefComponent>
+        <ItemTemplate>ItemTemplates</ItemTemplate>
     </Content>
 </Vsix>

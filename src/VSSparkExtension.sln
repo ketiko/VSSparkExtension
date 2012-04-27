@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSSparkExtension", "VSSparkExtension\VSSparkExtension.csproj", "{591C5F76-F300-40A7-B5B4-D573E4E59AF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{2D4DE567-1881-4479-BB19-9CECC876541D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutPage", "ItemTemplates\LayoutPage\LayoutPage.csproj", "{E0C72EDF-4D9C-42F0-B377-85B7B7FA61A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPage", "ItemTemplates\ViewPage\ViewPage.csproj", "{90CDCB8F-5C87-4C74-80C1-4E3266E46652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewPageWithLayout", "ItemTemplates\ViewPageWithLayout\ViewPageWithLayout.csproj", "{47C1FE3F-C3C8-411E-9354-3FC04BC29B6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +21,25 @@ Global
 		{591C5F76-F300-40A7-B5B4-D573E4E59AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{591C5F76-F300-40A7-B5B4-D573E4E59AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{591C5F76-F300-40A7-B5B4-D573E4E59AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C72EDF-4D9C-42F0-B377-85B7B7FA61A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C72EDF-4D9C-42F0-B377-85B7B7FA61A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C72EDF-4D9C-42F0-B377-85B7B7FA61A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C72EDF-4D9C-42F0-B377-85B7B7FA61A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CDCB8F-5C87-4C74-80C1-4E3266E46652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CDCB8F-5C87-4C74-80C1-4E3266E46652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CDCB8F-5C87-4C74-80C1-4E3266E46652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CDCB8F-5C87-4C74-80C1-4E3266E46652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C1FE3F-C3C8-411E-9354-3FC04BC29B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C1FE3F-C3C8-411E-9354-3FC04BC29B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C1FE3F-C3C8-411E-9354-3FC04BC29B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C1FE3F-C3C8-411E-9354-3FC04BC29B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0C72EDF-4D9C-42F0-B377-85B7B7FA61A1} = {2D4DE567-1881-4479-BB19-9CECC876541D}
+		{90CDCB8F-5C87-4C74-80C1-4E3266E46652} = {2D4DE567-1881-4479-BB19-9CECC876541D}
+		{47C1FE3F-C3C8-411E-9354-3FC04BC29B6B} = {2D4DE567-1881-4479-BB19-9CECC876541D}
 	EndGlobalSection
 EndGlobal
