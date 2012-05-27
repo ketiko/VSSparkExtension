@@ -3,12 +3,12 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-    <title></title>
-</head>
-<body>
-    <div>
-        
-    </div>
-</body>
+    <head>
+        <title>${ViewBag.Title}</title>
+    </head>
+    <body>
+        <div>
+            <use:view />
+        </div>
+    </body>
 </html>

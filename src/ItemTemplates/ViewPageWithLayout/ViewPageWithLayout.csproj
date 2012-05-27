@@ -59,7 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SparkIcon.png" />
-    <None Include="ViewPageWithLayout.spark" />
+    <None Include="ViewPageWithLayout.spark">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\VSSDK\Microsoft.VsSDK.targets" />
