@@ -55,6 +55,7 @@
   <ItemGroup>
     <VSTemplate Include="ViewPageWithLayout.vstemplate">
       <OutputSubPath>Web\Spark</OutputSubPath>
+      <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
